@@ -6,6 +6,7 @@ The following packages are required to run the notebooks:
 - `tensorflow` (>= 2.0)
 - `scikit-learn`
 - `numpy`
+- `matplotlib` (for visualization)
 
 Besides the [`adapt`](https://github.com/antoinedemathelin/adapt) package has been used for TrAdaBoost 
 
