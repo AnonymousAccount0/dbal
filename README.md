@@ -7,6 +7,8 @@ The following packages are required to run the notebooks:
 - `scikit-learn`
 - `numpy`
 
+Besides the [`adapt`](https://github.com/antoinedemathelin/adapt) package has been used for TrAdaBoost 
+
 
 ## Experiments
 
