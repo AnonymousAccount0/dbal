@@ -2,7 +2,6 @@
 
 ## Requirements
 
-<<<<<<< HEAD
 The following packages are required to run the experiments:
 - `tensorflow` (>= 2.0)
 - `scikit-learn`
@@ -26,7 +25,7 @@ ys = f(Xs)
 yt = f(Xt)
 ```
 
-<img src="images/toy_example.png" width="1200px" height="375px">
+<img src="images/toy_example.png" width="1200px" height="325px">
 
 A model fitted on source labeled data already returns reasonable predictions on the target domain but can be improved with additional target labels.
 
@@ -44,7 +43,7 @@ print("Target MAE = %.3f"%score)
 >>> Target MAE = 0.122
 ```
 
-<img src="images/toy_example_2.png" width="1200px" height="375px">
+<img src="images/toy_example_2.png" width="1200px" height="325px">
 
 
 Given a budget of 10 queries, the labels selection can be optimized using the K-medoids algorithm:
@@ -67,7 +66,7 @@ print("Target MAE = %.3f"%score)
 >>> Target MAE = 0.077
 ```
 
-<img src="images/KMedoidsQuery.gif" width="1200px" height="375px">
+<img src="images/KMedoidsQuery.gif" width="1200px" height="325px">
 
 =======
 The following packages are required to run the notebooks:
@@ -76,8 +75,7 @@ The following packages are required to run the notebooks:
 - `numpy`
 - `matplotlib` (for visualization)
 
-Besides the [`adapt`](https://github.com/antoinedemathelin/adapt) package has been used for TrAdaBoost 
->>>>>>> 2887f63252066a7fcc1631a562115672dffc6267
+Besides the [`adapt`](https://github.com/antoinedemathelin/adapt) package has been used for TrAdaBoost
 
 
 ## Experiments
