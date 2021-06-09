@@ -68,7 +68,6 @@ print("Target MAE = %.3f"%score)
 
 <img src="images/KMedoidsQuery.gif" width="1200px" height="325px">
 
-=======
 The following packages are required to run the notebooks:
 - `tensorflow` (>= 2.0)
 - `scikit-learn`
@@ -83,7 +82,6 @@ Besides the [`adapt`](https://github.com/antoinedemathelin/adapt) package has be
 The experiments are conducted on three benchmark datasets:
 - Superconductivity [UCI](https://archive.ics.uci.edu/ml/datasets/superconductivty+data#)
 - Office [Berkeley](https://people.eecs.berkeley.edu/~jhoffman/domainadapt/#datasets_code)
-<<<<<<< HEAD
 - Digits [SYNTH](http://yaroslav.ganin.net/),  [SVHN](http://ufldl.stanford.edu/housenumbers/)
 
 Experiments can be run with the following command lines:
@@ -109,6 +107,3 @@ Quick results can be obtained in the `notebooks` folder:
 
 [![name](images/digits.png)](https://github.com/AnonymousAccount0/dbal/blob/master/notebooks/Digits.ipynb)
 
-=======
-- Digits [MNIST](http://yann.lecun.com/exdb/mnist/),  [SVHN](http://ufldl.stanford.edu/housenumbers/)
->>>>>>> 2887f63252066a7fcc1631a562115672dffc6267
